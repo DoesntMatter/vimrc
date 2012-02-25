@@ -2,9 +2,15 @@
 " Appearance
 "=============================
 
-" Best readable format
-colorscheme zellner
+" Set Terminal colors to 256
+set t_Co=256
+
+" Use dark background for better readability
 set background=dark
+
+" Use desert256 as colorscheme
+" Change colorschemes manually with :colo $schemename
+colorscheme desert256
 
 "=============================
 " Coding-Style adjustments
