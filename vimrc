@@ -48,6 +48,9 @@ set showcmd
 " Probably this should be turned off for some actions
 set autoindent
 
+" Show line numbers
+set number
+
 "=============================
 " Useful mappings
 "=============================
