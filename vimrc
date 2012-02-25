@@ -30,6 +30,15 @@ set tabstop=4
 set encoding=utf8
 
 "=============================
+" Plugin adjustments
+"=============================
+
+" TTrCodeAssistor plugin
+" Enable plugin and set tag file
+let g:TTrCodeAssistor_AutoStart=1
+:set tags=~/.vim/tmp/tags
+
+"=============================
 " Usability features
 "=============================
 
