@@ -8,9 +8,10 @@ set t_Co=256
 " Use dark background for better readability
 set background=dark
 
-" Use desert256 as colorscheme
+" Use leo as colorscheme
 " Change colorschemes manually with :colo $schemename
-colorscheme desert256
+" My favourite ones are leo,candycode,desert256,relaxedgreen
+colorscheme leo
 
 "=============================
 " Coding-Style adjustments
