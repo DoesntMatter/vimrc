@@ -82,6 +82,12 @@ function! TabsToSpaces()
   %s/\t/    /ge
 endfunction
 
+" Function to replace Dos with Unix line endings
+" To use type :call Dos2Unix()
+function! Dos2Unix()
+  :%s/\r//ge
+endfunction
+
 "=============================
 " Statusline adjustments
 "=============================
