@@ -14,3 +14,10 @@ set background=dark
 set expandtab
 set shiftwidth=4
 set tabstop=4
+
+"=============================
+" Miscellaneous
+"=============================
+
+" Turn on UTF-8 encoding
+set encoding=utf8
