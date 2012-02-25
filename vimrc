@@ -71,6 +71,12 @@ function! DeleteTrailingWS()
   %s/\s\+$//ge
 endfunction
 
+" Function to replace tabs with four spaces 
+" To use type :call TabsToSpaces()
+function! TabsToSpaces()
+  %s/\t/    /ge
+endfunction
+
 "=============================
 " Statusline adjustments
 "=============================
