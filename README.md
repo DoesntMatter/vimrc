@@ -26,6 +26,16 @@ My personal Vim configuration
 
 `cd ~/.vim && git pull`
 
+### Useful things
+
+* Open shell prompt
+
+`:ConqueTerm bash`
+
+* Open shell prompt in new window
+
+`:ConqueTermSplit bash`
+
 ### Credits and Thanks
 
 Anyone who has contributed
