@@ -2,6 +2,12 @@
 
 My personal Vim configuration
 
+### Dependencies
+
+* Ctags
+
+`sudo apt-get install ctags`
+
 ### Installation guide
 
 * Backup your current directory
