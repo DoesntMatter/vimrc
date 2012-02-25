@@ -50,3 +50,13 @@ set autoindent
 " Example '{' and '}'
 " To use press the % key
 noremap % v%
+
+"=============================
+" Useful functions
+"=============================
+
+" Function to delete trailing whitespaces
+" To use type :call DeleteTrailingWS()
+function! DeleteTrailingWS()
+  %s/\s\+$//ge
+endfunction
