@@ -60,3 +60,27 @@ noremap % v%
 function! DeleteTrailingWS()
   %s/\s\+$//ge
 endfunction
+
+"=============================
+" Statusline adjustments
+"=============================
+
+" Always show the statusline
+set laststatus=2
+
+" Format the statusline
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
+
+" Needed functions for formatting
+function! CurDir()
+    let curdir = getcwd()
+    return curdir
+endfunction
+
+function! HasPaste()
+    if &paste
+        return 'PASTE MODE  '
+    else
+        return ''
+    endif
+endfunction
