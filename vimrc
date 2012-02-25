@@ -21,3 +21,23 @@ set tabstop=4
 
 " Turn on UTF-8 encoding
 set encoding=utf8
+
+"=============================
+" Usability features
+"=============================
+
+" Hide cursor when editing
+set mousehide
+
+" Case insensitive matching for search
+set ignorecase
+
+" Incremental search
+set incsearch
+
+" This shows what you are typing as a command
+set showcmd
+
+" Returns to indent of previous line
+" Probably this should be turned off for some actions
+set autoindent
