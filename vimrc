@@ -61,6 +61,11 @@ set number
 " To use press the % key
 noremap % v%
 
+" Tlist lists all functions and similar things
+" Ctags has to be installed for this feature
+" To use press the F2 key
+noremap <F2> :Tlist<CR>
+
 "=============================
 " Useful functions
 "=============================
