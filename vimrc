@@ -41,3 +41,12 @@ set showcmd
 " Returns to indent of previous line
 " Probably this should be turned off for some actions
 set autoindent
+
+"=============================
+" Useful mappings
+"=============================
+
+" Switch to matching object and highlight code between
+" Example '{' and '}'
+" To use press the % key
+noremap % v%
