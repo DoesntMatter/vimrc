@@ -72,8 +72,8 @@ noremap % v%
 
 " Tlist lists all functions and similar things
 " Ctags has to be installed for this feature
-" To use press the F2 key
-noremap <F2> :Tlist<CR>
+" To use press the space key
+noremap <space> :Tlist<CR>
 
 "=============================
 " Useful functions
