@@ -82,6 +82,13 @@ map <A-Down> <C-w>+
 map <A-Left> <C-w><
 map <A-Right> <C-w>>
 
+" Mappings for window switching
+" To use press Ctrl + the arrow keys
+map <C-Up> <C-w>k
+map <C-Down> <C-w>j
+map <C-Left> <C-w>h
+map <C-Right> <C-w>l
+
 "=============================
 " Useful functions
 "=============================
