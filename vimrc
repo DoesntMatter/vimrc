@@ -75,6 +75,13 @@ noremap % v%
 " To use press the space key
 noremap <space> :Tlist<CR>
 
+" Mappings for window resizing
+" To use press Alt + the arrow keys
+map <A-Up> <C-w>-
+map <A-Down> <C-w>+
+map <A-Left> <C-w><
+map <A-Right> <C-w>>
+
 "=============================
 " Useful functions
 "=============================
