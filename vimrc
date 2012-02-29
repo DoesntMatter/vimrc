@@ -61,6 +61,10 @@ set autoindent
 " Show line numbers
 set number
 
+" Change the directory to the one of the current file
+" This feature works automatically for each buffer
+autocmd BufEnter * lcd %:p:h
+
 "=============================
 " Useful mappings
 "=============================
