@@ -115,6 +115,12 @@ function! Dos2Unix()
   :%s/\r//ge
 endfunction
 
+" Function to allow using tabs in files
+" To use type :call AllowTabs()
+function! AllowTabs()
+  set expandtab!
+endfunction
+
 "=============================
 " Statusline adjustments
 "=============================
