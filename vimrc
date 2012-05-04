@@ -121,6 +121,12 @@ function! AllowTabs()
   set expandtab!
 endfunction
 
+" Function to enhance copy and paste actions
+" To use type :call Paste()
+function! Paste()
+  set autoindent!
+endfunction
+
 "=============================
 " Statusline adjustments
 "=============================
