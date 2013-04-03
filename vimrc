@@ -8,6 +8,9 @@ set t_Co=256
 " Use dark background for better readability
 set background=dark
 
+" Enable syntax highlighting
+syntax on
+
 " Use leo as colorscheme
 " Change colorschemes manually with :colo $schemename
 " My favourite ones are leo,candycode,desert256,relaxedgreen
