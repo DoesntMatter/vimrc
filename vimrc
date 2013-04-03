@@ -130,6 +130,14 @@ function! Paste()
   set autoindent!
 endfunction
 
+" Function to copy file to X clipboard
+" Needs xclip to be installed
+" To use type :call CopyX()
+function! CopyX()
+  :%!xclip -sel clip
+  u
+endfunction
+
 "=============================
 " Statusline adjustments
 "=============================
